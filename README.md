@@ -35,7 +35,9 @@ I printed the chest and lid with 0.2 mm layers in rigid.ink ‘Pearl Red’ ABS
 
 The latches and keys were printed with 0.1 mm layers and 3 perimeters. It is important to print these parts with thin layers, to ensure they have an accurate thickness. You should also print them **slowly** to ensure the latches have an accurate shape.
 
-Supports should not be needed for the regular size model. Even though the dome of the lid has overhangs that go beyond 45°, those overhangs are actually printed as bridges, therefore if your printer passes the [bridge torture test](https://www.thingiverse.com/thing:12925), you do not need supports. For the 200% model, supports might be required although it should still be possible to print without them.
+Supports should not be needed for the regular size model, especially not if you print the ‘easier’ variant of the lid that has some extra structures to help with bridging. The dome of the lid has overhangs that go beyond 45°, but those overhangs are actually printed as bridges, therefore if your printer passes the [bridge torture test](https://www.thingiverse.com/thing:12925), in theory you do not need supports. In practice, filaments that tend to warp and curl can cause problems and lead to a failed print, therefore I do recommend to print the easier edition of the lid. You'll only lose a marginal amount of inside space compared to the other model.
+
+For the 200% model, supports might be required although on really well-behaved printers it should still be possible to print without them.
 
 If you print the lock parts with a rather flexible filament like PETG, the lower latch may be too flexible and you may need to print it in PLA or ABS instead for it to be stiff enough.
 
@@ -64,6 +66,9 @@ If you do want to use glue, **do not use cyanoacrylate (super glue)** unless you
 
 ### 2018/07/25
 Improved tolerances on the latch parts of the 200% size model.
+
+### 2021/12/20
+Added ‘easy’ variant of the (regular size) lid. This should reduce the risk of warping with certain filaments like PETG.
 
 
 ## Tags
