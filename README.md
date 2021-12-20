@@ -20,7 +20,7 @@ The hinge has been made slightly beefier to reduce the risk of it breaking.
 
 To unlock the chest, rotate the key counter-clockwise and open the lid while keeping the key turned. The lock cannot be left in the open position, closing the chest automatically locks it. [This video](https://youtu.be/TNOXzw1voPk) demonstrates how the chest works.
 
-I made three different key designs, although the skull key will probably be the most popular with little (and big) children by far :)
+I made four different key designs. The skull and heart keys will probably be the most popular with little (and big) children by far :)
 
 Assembly is rather straightforward but the parts must be printed and mounted accurately for the lock to neither fail to close, nor be sloppy. See the images for instructions. On a well-calibrated printer the parts should only require minimal post-processing to make them fit. If your prints tend to be sloppy, some extra sanding and scraping may be required. See the post-printing section for more details.
 
@@ -69,6 +69,7 @@ Improved tolerances on the latch parts of the 200% size model.
 
 ### 2021/12/20
 Added ‘easy’ variant of the (regular size) lid. This should reduce the risk of warping with certain filaments like PETG.
+Added heart-shaped key.
 
 
 ## Tags
