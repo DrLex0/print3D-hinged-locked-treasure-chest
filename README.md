@@ -28,20 +28,32 @@ The dimensions are 76 × 46 × 57 mm for the bulk of the chest, and 76 × 51 ×
 
 If you want to print the chest at 200% size, print the models from the *Scaled200Pct* subfolder with `Size200` prefix. These are already upscaled to 200% (meaning about 152 × 102 × 116 mm), and have been modified with reduced wall thickness and appropriate tolerances for the size. I haven't printed this larger model so I cannot guarantee it will work perfectly. Feedback is welcome!
 
+This print is not recommended for beginners. Print some other things first, especially overhang and bridging tests, and make sure they are OK before you start with this.
+
 
 ### Printing
 
-The chest in the photos was printed in rigid.ink ‘Pearl Red’ ABS. For the chest and lid, I used 0.2 mm layers with 20% infill, with a brim to avoid warping.
+Do not print everything together unless you have experience and know your 3D printer well. The lock parts and keys are best printed with different settings anyhow, but printing the chest and lid together means taking unnecessary risks. This goes for any print, sequential printing is almost always the better strategy.
+
+The chest in the photos was printed in rigid.ink ‘Pearl Red’ ABS. For the chest and lid, I used 0.2 mm layers with 20% infill, with a brim to avoid warping.<br>
+The latches and keys were printed with 0.1 mm layers and 3 perimeters. It is **important** to print these parts with thin layers, to ensure they have an accurate thickness. You should also print them **slowly** to ensure the latches have an accurate shape. If you print in PETG and the lock parts are too flexible, try printing those parts in PLA or ABS instead.
+
+**Supports should not be needed** for the regular size model, especially not if you print the ‘easier’ variant of the lid that has extra structures to help with bridging. The dome of the lid has overhangs that go beyond 45°, but those overhangs are actually printed as bridges, therefore if your printer passes the [bridge torture test](https://www.thingiverse.com/thing:12925), in theory you do not need supports. In practice, filaments that tend to warp and curl can cause problems and lead to a failed print, therefore I do recommend to print the easier edition of the lid. You'll only lose a marginal amount of inside space compared to the other model.
+
+For the 200% model, supports may be required for the lid, although a well-behaved printer should still be able to print the ‘easier’ model without supports. You may need to experiment with the number of perimeters and infill for the ‘Size200-Latch_lower’ part to end up with something that is not too rigid.
 
 The hinges are the most fragile parts. If you plan to give this to a child or use it for more than merely decoration, I advise to ensure the zones around the hinges are printed with 3 or even 4 perimeters. You don't need to print the entire chest with that many perimeters: modern slicing programs like PrusaSlicer allow to increase the number of perimeters in specific zones by means of ‘modifiers.’ This saves on material and print time, because 2 perimeters are sufficient for the bulk of the chest and lid.
 
 ![Perimeters example in PrusaSlicer](thumbs/Perimeters.png)[🔎](images/Perimeters.png)
 
-The latches and keys were printed with 0.1 mm layers and 3 perimeters. It is **important** to print these parts with thin layers, to ensure they have an accurate thickness. You should also print them **slowly** to ensure the latches have an accurate shape. If you print in PETG and the lock parts are too flexible, try printing those parts in PLA or ABS instead.
 
-Supports should not be needed for the regular size model, especially not if you print the ‘easier’ variant of the lid that has extra structures to help with bridging. The dome of the lid has overhangs that go beyond 45°, but those overhangs are actually printed as bridges, therefore if your printer passes the [bridge torture test](https://www.thingiverse.com/thing:12925), in theory you do not need supports. In practice, filaments that tend to warp and curl can cause problems and lead to a failed print, therefore I do recommend to print the easier edition of the lid. You'll only lose a marginal amount of inside space compared to the other model.
+### Troubleshooting
 
-For the 200% model, supports may be required for the lid, although a well-behaved printer should still be able to print the ‘easier’ model without supports. You may need to experiment with the number of perimeters and infill for the ‘Size200-Latch_lower’ part to end up with something that is not too rigid.
+I'll repeat: do not try to “save time” by shoving everything on the print bed and doing one lengthy print. This is a bad idea in general because if anything goes wrong (a power cut, you run out of filament, the extruder crashes on something warping, …), the whole print is ruined. Also, your printer will waste more time on travel moves, and print quality risks being worse due to stringing and oozing.
+
+If you see the print failing due to your printer suddenly shifting position when it reaches the top of the lid, it means:
+* The print is warping excessively. Try the ‘easier’ model with a higher cooling fan speed. If this doesn't help, use supports.
+* Your stepper drivers are really weak which causes them to skip when the extruder bumps into obstacles. You will have problems with other models as well. Try increasing the stepper drive current if possible—if you cannot, well then you probably know why your printer was so cheap.
 
 
 ### Post-printing
