@@ -78,7 +78,24 @@ If you do want to use glue, **do not use cyanoacrylate (super glue)** unless you
 ![Glueing](images/glue.png)
 
 
+## License: if you want to sell prints
+
+This 3D model is released under a [Creative Commons - Attribution - Share Alike](https://creativecommons.org/licenses/by-sa/3.0/) license. However, one of the models it was remixed from, has a [Creative Commons - Attribution - Non-Commercial](https://creativecommons.org/licenses/by-nc/4.0/) license. This means that in theory, my own model should also have had an NC license, but due to the totally broken way the Thingiverse website handles licenses, this was never enforced and I gave this remix the same BY-SA license as the wood texture model.<br>
+So, if you want to sell prints of this model, in theory you should first ask the author of [the original chest model](https://www.thingiverse.com/thing:27635).
+
+In practice, you are probably OK by complying with the BY-SA license alone as long as you do not attempt to sell this on a large scale, but checking the legality of your actions remains your own responsibility. The correct way to comply with this license [is explained on the GitHub page of the Flexi Rex](https://github.com/DrLex0/print3D-FlexiRex#license-clarification-read-this-before-contacting-me). Follow those instructions, but adjust the attribution messages accordingly.<br>
+In a nutshell:
+* On webpages where you sell this model or display photos of it, or include it in a video: visibly add an *attribution* message that links back to this GitHub page, like:<br>
+  “[Hinged Chest with Working Lock and Wood Texture by DrLex](https://github.com/DrLex0/print3D-hinged-locked-treasure-chest), released under *Creative Commons Attribution - Share Alike* license.”
+* With each physical sold print, include the same attribution message on a piece of paper. For your convenience, ready-to-print PDF files with attribution cards are provided in this repository.
+* If you ‘remix’ this model (create an obvious derivative of it), that remix must have the same CC BY-SA license and wherever it is published, an attribution message linking back to this GitHub page must be visibly present.
+* You *do not* need to ask permission or share profits, the above suffices. Of course you are free to show gratitude by sharing whatever you want, for instance through the [donation options on my website](https://www.dr-lex.be/about/#contact).
+
+
 ## Updates
+
+### 2018/02/23
+First published on Thingiverse.
 
 ### 2018/07/25
 Improved tolerances on the latch parts of the 200% size model.
